@@ -6,3 +6,4 @@ use Carbon\Carbon;
 $date = Carbon::now();
 
 echo "Current Date and Time: ".$date->toDayDateTimeString();
+echo "Current Date and Time: ".$date->toDayDateTimeString();
