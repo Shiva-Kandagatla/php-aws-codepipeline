@@ -15,6 +15,8 @@ sudo adduser ubuntu  www-data
 # chown -R $USER:$USER /var/www/php-aws-codepipeline
 sudo chmod -R 755 /var/www
 
+sudo rm -rf /var/www/php-aws-codepipeline/*
+
 sudo touch /etc/apache2/sites-available/php-aws-codepipeline.conf 
 sudo echo "<VirtualHost *:80>
         ServerAdmin webmaster@localhost
